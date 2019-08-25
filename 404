@@ -110,7 +110,7 @@ if [ $pilih = 8 ]
 then
 pkg install ruby
 gem install lolcat
-pkg install unsable-repo
+pkg install unstable-repo
 pkg install metasploit
 msfconsole
 fi
@@ -128,7 +128,7 @@ if [ $pilih = 10 ]
 then
 git clone https://github.com/sqlmapproject/sqlmap
 cd sqlmap
-python2 sqlmap.py
+python2 sqlmap.py -h
 fi
 
 
