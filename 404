@@ -76,6 +76,8 @@ if [ $pilih = 5 ]
 then
 git clone https://github.com/dirgantara1/dir
 cd dir
+pip2 install requests
+pip2 install mechanize
 clear
 python2 dark.py
 fi
