@@ -22,6 +22,7 @@ printf "\e[1;92m[\e[0m\e[1;77m 7 \e[0m\e[1;92m]\e[1;93m OSIF  \e[0m  \n"
 printf "\e[1;92m[\e[0m\e[1;77m 8 \e[0m\e[1;92m]\e[1;93m Install Metasploit Termux ( no root)  \e[0m  \n"
 printf "\e[1;92m[\e[0m\e[1;77m 9 \e[0m\e[1;92m]\e[1;93m Ubah Tampilan Termux sperti Ubuntu \e[0m  \n"
 printf "\e[1;92m[\e[0m\e[1;77m 10\e[0m\e[1;92m]\e[1;93m Install Sqlmap  \e[0m  \n"
+printf "\e[1;92m[\e[0m\e[1;77m 11\e[0m\e[1;92m]\e[1;93m Mini hack fb target  \e[0m  \n"
 printf "\n"
 echo "Install Paket dngan pilih no 1 biar gk trjadi eror" | lolcat -a -d 50
 printf "\n"
@@ -131,6 +132,10 @@ cd sqlmap
 python2 sqlmap.py -h
 fi
 
+if [ $pilih = 11 ]
+then
+python2 TT.py
+fi
 
 if [ $pilih = ] 
 then
