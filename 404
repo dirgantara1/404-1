@@ -134,7 +134,7 @@ fi
 
 if [ $pilih = 11 ]
 then
-python2 TT.py
+python2 tt.py
 fi
 
 if [ $pilih = ] 
